@@ -206,11 +206,12 @@
   }
 
   .footer-logo-area img {
-    left: 10%;
+    left: 12%;
   }
 
   .footer-text {
     margin-top: 70px;
+    padding: 0px 30px 40px;
   }
 
   .list-top .footer-a {
@@ -227,6 +228,45 @@
 
   .right-line:after {
     display: none;
+  }
+
+  .privacy-wrap {
+    padding: 100px 0px;
+  }
+
+  .privacy-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .privacy-txt {
+    font-size: 15px;
+  }
+
+  .privacy-num {
+    font-size: 17px;
+    margin-top: 30px;
+  }
+
+  .privacy-info {
+    font-size: 15px;
+    margin: 15px 0px;
+  }
+
+  .privacy-table td, .privacy-table th {
+    padding: 5px;
+  }
+
+  .privacy-line {
+    margin: 0px 0px 30px;
+  }
+
+  .agree-txt {
+    width: 83%;
+  }
+
+  .close {
+    right: 5%;
   }
 }
 

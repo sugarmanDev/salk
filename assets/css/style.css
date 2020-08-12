@@ -294,12 +294,12 @@ button:focus {
   font-weight: 400;
 }
 
-.main-wrap-5 .main-5-btn:nth-child(1):hover {
+.main-5-btn-1:hover {
   background-color: #FF9F3D;
   transition: all .3s ease;
 }
 
-.main-wrap-5 .main-5-btn:nth-child(2):hover {
+.main-5-btn-2:hover {
   background-color: #001AB8;
   transition: all .3s ease;
 }
@@ -315,7 +315,7 @@ button:focus {
 }
 
 .footer-area {
-  height: 352px;
+  /* height: 352px; */
   max-height: 352px;
   margin-bottom: 37px;
 }
@@ -585,7 +585,23 @@ button:focus {
   border-bottom: 1px solid #C7C7C7;
 }
 
+.about-textarea {
+  width: 100%;
+  padding: 8px 0px;
+  font-size: 24px;
+  border: 0;
+  font-weight: 600;
+  border-bottom: 1px solid #C7C7C7;
+  /* resize: none; */
+  height: 53px;
+}
+
 .about-input::placeholder {
+  font-size: 24px;
+  color: #E2E2E2;
+}
+
+.about-textarea::placeholder {
   font-size: 24px;
   color: #E2E2E2;
 }
@@ -773,4 +789,112 @@ input[id="agree"]+label {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+}
+
+/* 개인정보 취급방침 */
+.privacy-wrap {
+  padding: 150px 0px;
+}
+
+.privacy-line {
+  width: 100%;
+  height: 3px;
+  background-color: #001AB8;
+  margin: 0px 0px 50px;
+}
+
+.privacy-title {
+  color: #001AB8;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.privacy-txt {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.privacy-num {
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.privacy-info {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.privacy-num1 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.privacy-info1 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 5px 0px;
+}
+
+.privacy-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.privacy-table td, .privacy-table th {
+  border: 1px solid #ddd;
+  padding: 25px;
+}
+
+.privacy-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.privacy-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #001AB8;
+  color: white;
+  width: 25%;
+}
+
+.modal-dialog {
+  max-width: 700px;
+}
+
+.modal-body {
+  padding: 40px;
+}
+
+.modal-content {
+  height: 450px;
+}
+
+.close {
+  width: 6%;
+  height: 10%;
+  position: absolute;
+  right: 0;
+  font-size: 40px;
+  color: #001AB8;
+  opacity: 1;
+  z-index: 999;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.btn-privacy {
+  border: 0;
+  background-color: #fff;
+  text-decoration: underline;
 }
