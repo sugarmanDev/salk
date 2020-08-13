@@ -28,7 +28,7 @@ button:focus {
 }
 
 /* nav */
-.navbar {
+/* .navbar {
   height: 85px;
   max-height: 85px;
 }
@@ -58,12 +58,118 @@ button:focus {
 
 .active {
   border-bottom: 4px solid #001AB8;
-}
-
+} */
 /* .nav-link:hover{
     border-bottom: 3px solid #001AB8;
     position: relative;
 } */
+.is-sticky-navbar {
+  height: 85px;
+  line-height: 65px;
+  padding-left: 60px !important;
+  padding-right: 50px !important;
+  z-index: 9999;
+  color: #000;
+  top: 45px;
+  position: absolute;
+}
+
+.is-sticky {
+  position: fixed;
+  background: white;
+  opacity: 1;
+  top: 0;
+  display: block;
+  z-index: 9999;
+  transition: all 0.3s;
+  color: #000;
+  font-weight: 500;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.dasktop-nav {
+  display: inline-block;
+}
+
+.nav-group {
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.nav-item {
+  line-height: 1.5;
+  font-size: 1.063rem;
+  color: #fff;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.is-sticky .nav-item a {
+  color: #000;
+  font-weight: 600;
+}
+
+.nav-item a {
+  color: #fff;
+}
+
+#join-mobile-menu-place {
+  position: absolute;
+}
+
+.is-sticky .mobile-menu-place {
+  top: 30px !important;
+  color: #0e1726;
+}
+
+.mobile-menu-place {
+  position: fixed;
+  right: 5%;
+  top: 73px;
+  cursor: pointer;
+  display: none;
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+}
+
+#join-mobile-menu-place span {
+  position: absolute;
+  top: -50px;
+}
+
+.mobile {
+  display: none;
+}
+
+.mobile-menu {
+  position: fixed;
+  width: 100vw;
+  height: calc(100vh - 0px);
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.mobile-menu .mobile-menu-list {
+  width: 50%;
+  text-align: center;
+  height: 70%;
+  margin-top: 200px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #112348;
+}
+
+.mobile-menu .mobile-menu-list li {
+  margin-bottom: 7%;
+}
+
 /* 메인배너-1 */
 .main-btn {
   background-color: #001AB8;
@@ -310,6 +416,10 @@ button:focus {
 }
 
 /* 푸터 */
+.lh {
+  line-height: 40px;
+}
+
 .footer-text {
   margin-top: 0px;
 }
@@ -353,6 +463,18 @@ button:focus {
   background-color: #001AB8;
 }
 
+.pt-77 {
+  padding-top: 77px;
+}
+
+.list-bottom {
+  display: block;
+}
+
+.list-bottom-mobile {
+  display: none;
+}
+
 .list-bottom .footer-info:nth-child(1) {
   margin: 0px 20px 0px 0px;
 }
@@ -363,7 +485,32 @@ button:focus {
   font-weight: 500;
 }
 
-.footer-info span {
+.list-bottom-mobile .footer-info {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.after {
+  margin-right: 15px;
+}
+
+.after::after {
+  content: '';
+  width: 2px;
+  height: 13px;
+  margin: 0px 6px;
+  margin-top: 8px;
+  position: absolute;
+  background: #707070;
+  opacity: 1;
+}
+
+.list-bottom .footer-info span {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.list-bottom-mobile .footer-info span {
   font-weight: 600;
   margin-right: 6px;
 }

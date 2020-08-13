@@ -5,6 +5,20 @@
 @media (min-width:415px) and (max-width:768px) {}
 
 @media (min-width:321px) and (max-width:414px) {
+  .dasktop-nav {
+    display: none;
+  }
+
+  .is-sticky .mobile-menu-place {
+    display: block;
+  }
+
+  .mobile-menu-place span {
+    font-size: 32px !important;
+    margin-top: -14px !important;
+    font-weight: 100;
+  }
+
   .main-text-box h1 {
     font-size: 32px;
     margin-top: 50px;
@@ -86,6 +100,10 @@
 
   .main-wrap-5 span {
     padding-left: 170px;
+  }
+
+  .about-title {
+    padding-top: 50px;
   }
 
   .about-banner {
@@ -207,10 +225,27 @@
 
   .footer-logo-area img {
     left: 12%;
+    margin-top: -5px;
+  }
+
+  .pt-77 {
+    padding-top: 60px;
+  }
+
+  .list-bottom {
+    display: none;
+  }
+
+  .list-bottom-mobile {
+    display: block;
+  }
+
+  .list-bottom .footer-info {
+    margin: 0px 5px;
   }
 
   .footer-text {
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 0px 30px 40px;
   }
 
@@ -220,6 +255,15 @@
 
   .footer-underline {
     margin: 15px 0px;
+  }
+
+  .list-bottom .footer-info::after {
+    margin: 0px 7px;
+    margin-top: 8px;
+  }
+
+  .list-bottom .footer-info:nth-child(1) {
+    margin: 0px 5px 0px 0px;
   }
 
   .title-line {
@@ -267,6 +311,18 @@
 
   .close {
     right: 5%;
+  }
+
+  .sns {
+    text-align: right;
+  }
+
+  .sns-box {
+    margin: 0px 4px;
+  }
+
+  .lh {
+    line-height: 30px;
   }
 }
 
