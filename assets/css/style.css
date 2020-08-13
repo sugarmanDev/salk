@@ -1084,3 +1084,75 @@ input[type="checkbox"]:checked+label {
   background-color: #fff;
   text-decoration: underline;
 }
+
+/* 문의 성공 페이지 */
+.success {
+  padding-top: 85px;
+}
+
+.check-gif {
+  background: url('../img/check-success.gif');
+  width: 80px;
+  height: 80px !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 200px auto 0px;
+}
+
+.check-lottie {
+  width: 80px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 190px;
+}
+
+.success-page {
+  padding: 0px;
+  min-height: 650px;
+}
+
+.success-txt2 {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.success-btn-box {
+  text-align: center;
+}
+
+.success-btn {
+  border: 1px solid #001AB8;
+  color: #0e1726;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 40%;
+  height: 50px;
+  margin: 15px auto;
+}
+
+.return {
+  background-color: #001AB8;
+  color: #fff;
+}
+
+.success-btn:hover {
+  text-decoration: none;
+  color: #001AB8;
+  background-color: #fff;
+  border: 1.5px solid #001AB8;
+}
+
+@media (max-width:1000px) {
+  .success-btn {
+    width: 60%;
+  }
+}
+
+@media (max-width:740px) {
+  .success-btn {
+    width: 80%;
+  }
+}
