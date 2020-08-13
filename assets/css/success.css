@@ -1,5 +1,8 @@
 /* 문의 성공 페이지 */
 
+.success{
+  padding-top: 55px;
+}
 
 .check-gif {
   background: url('/img/lottie/check-success.gif');
@@ -34,7 +37,7 @@
 
 
 .success-btn {
-  border: 1px solid #E8374A;
+  border: 1px solid #001AB8;
   color: #0e1726;
   font-size: 18px;
   font-weight: 500;
@@ -45,16 +48,16 @@
 }
 
 .return {
-  background-color: #E8374a;
+  background-color: #001AB8;
   color: #fff;
 }
 
 
 .success-btn:hover {
   text-decoration: none;
-  color: #E8374A;
+  color: #001AB8;
   background-color: #fff;
-  border: 1.5px solid #E8374A;
+  border: 1.5px solid #001AB8;
 }
 
 @media (max-width:1000px) {
