@@ -4,6 +4,10 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+.pd-0 {
+  padding: 0;
+}
+
 /* 공통 */
 .mt {
   margin-top: 200px;
@@ -66,12 +70,9 @@ button:focus {
 .is-sticky-navbar {
   height: 85px;
   line-height: 65px;
-  padding-left: 60px !important;
-  padding-right: 50px !important;
+  padding: 0px 2px 0px 50px;
   z-index: 9999;
   color: #000;
-  top: 45px;
-  position: absolute;
 }
 
 .is-sticky {
@@ -80,9 +81,7 @@ button:focus {
   opacity: 1;
   top: 0;
   display: block;
-  z-index: 9999;
   transition: all 0.3s;
-  color: #000;
   font-weight: 500;
   border-bottom: 1px solid #eeeeee;
 }
@@ -95,19 +94,26 @@ button:focus {
   list-style: none;
   padding-left: 0;
   display: inline-block;
+  padding-top: 10px;
+  margin-bottom: 0;
 }
 
 .nav-item {
-  line-height: 1.5;
+  /* line-height: 1.5; */
   font-size: 1.063rem;
   color: #fff;
   display: inline-block;
-  margin-right: 25px;
+  margin-right: 48px;
+  padding: 3px 0px;
+}
+
+.active {
+  border-bottom: 4px solid #001AB8;
 }
 
 .is-sticky .nav-item a {
   color: #000;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav-item a {
@@ -140,6 +146,10 @@ button:focus {
   top: -50px;
 }
 
+html.prevent-scroll, body.prevent-scroll {
+  overflow: hidden;
+}
+
 .mobile {
   display: none;
 }
@@ -161,16 +171,29 @@ button:focus {
   text-align: center;
   height: 70%;
   margin-top: 200px;
-  font-size: 1.6rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: #112348;
 }
 
+.mobile-menu-list ul {
+  padding: 0;
+}
+
 .mobile-menu .mobile-menu-list li {
-  margin-bottom: 7%;
+  margin-bottom: 16%;
+  list-style: none;
+}
+
+.mobile-menu-a {
+  color: #000;
 }
 
 /* 메인배너-1 */
+.main-wrap-1 {
+  padding-top: 85px;
+}
+
 .main-btn {
   background-color: #001AB8;
   font-size: 16px;
@@ -558,6 +581,10 @@ button:focus {
 }
 
 /* about */
+.about {
+  padding-top: 85px;
+}
+
 .about-back {
   background: linear-gradient(#ffffff 55%, #001AB8 45%);
   height: 996px;
@@ -604,11 +631,6 @@ button:focus {
 
 .title-bottom {
   padding-top: 30px;
-}
-
-.title-bottom h3 {
-  font-weight: 32px;
-  color: #fff;
 }
 
 .title-bottom p {
@@ -789,6 +811,10 @@ input[id="agree"]+label {
 }
 
 /* 중개인 */
+.realtor {
+  padding-top: 85px;
+}
+
 .realtor-main-txt {
   font-weight: 600;
   font-size: 40px;
@@ -823,7 +849,7 @@ input[id="agree"]+label {
   background-color: #FF9F3D;
   width: 100%;
   max-height: 264px;
-  padding: 60px 0px 67px;
+  padding: 60px 0px 60px;
 }
 
 .right-line:after {
@@ -840,6 +866,10 @@ input[id="agree"]+label {
 }
 
 /* 건물주 */
+.owner {
+  padding-top: 85px;
+}
+
 .owner-top h2 {
   font-size: 40px;
   margin-bottom: 20px;
@@ -864,7 +894,7 @@ input[id="agree"]+label {
   background-color: #001AB8;
   width: 100%;
   max-height: 264px;
-  padding: 60px 0px 67px;
+  padding: 60px 0px 60px;
 }
 
 .icon-img {
@@ -894,6 +924,10 @@ input[id="agree"]+label {
 }
 
 /* 문의하기 */
+.qna {
+  padding-top: 85px;
+}
+
 .qna-top {
   padding: 126px 0px 223px;
 }

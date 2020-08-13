@@ -24,59 +24,65 @@
 <body>
 
   <!-- nav -->
-  <div class="navbar-wrap scroll-nav top-nav sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo.png" alt="salk_logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./about.html" style="font-size: 20px; font-family: 'Poppins', sans-serif;">salk</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./realtor.html">중개인</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./owner.html">건물주</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./qna.html">문의하기</a>
-          </li>
-        </ul>
+  <div>
+    <div>
+      <div class="container-fluid is-sticky-navbar is-sticky">
+        <div class="col-md-12" style="line-height: 65px;">
+          <div class="row">
+            <div class="col-md-4" id="dasktop-nav1" style="padding: 10px 0px;">
+              <a href="./index.html">
+                <img src="./assets/img/logo.png" alt="salk_logo">
+              </a>
+            </div>
+            <div class="col-md-8" style="text-align: right;" id="dasktop-nav2">
+              <ul class="nav-group dasktop-nav">
+                <li class="nav-item active">
+                  <a href="./about.html" class="scrollto" style="font-weight: 700; font-size: 18px; font-family: 'Poppins', sans-serif;">salk</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./realtor.html" class="scrollto">중개인</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./owner.html" class="scrollto">건물주</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./qna.html" class="scrollto">문의하기</a>
+                </li>
+              </ul>
+
+              <button type="button" class="mobile-menu-place" id="join-mobile-menu-place">
+                <span class="material-icons">menu</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
+    </div>
+
+    <div class="mobile" id="mobile">
+      <div class="container-fluid mobile-menu">
+        <div class="mobile-menu-list">
+          <ul>
+            <li><a href="./about.html" class="mobile-menu-a active" style="font-weight: 700; font-size: 1.6rem;   font-family: 'Poppins', sans-serif;">salk</a></li>
+            <li><a href="./realtor.html" class="mobile-menu-a">중개인</a></li>
+            <li><a href="./owner.html" class="mobile-menu-a">건물주</a></li>
+            <li><a href="./qna.html" class="mobile-menu-a">문의하기</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 
-
-
-
-  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo.png" alt="salk_logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">salk<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">중개인</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">건물주</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">문의하기</a>
-        </li>
-      </ul>
-
-    </div>
-  </nav> -->
+  <script>
+    $(document).on('click', '.mobile-menu-place', function() {
+      $('#mobile').toggle();
+      $('html').toggleClass('prevent-scroll')
+      $('body').toggleClass('prevent-scroll')
+    });
+  </script>
   <!-- nav end -->
+
+
 
   <div class="about">
     <div class="about-back">
@@ -94,7 +100,7 @@
           <div class="col-md-12">
             <div class="row title-bottom">
               <div class="col-md-6">
-                <h3>공실 해결 플랫폼</h3>
+                <h3 style="font-weight: 32px; color: #fff;">공실 해결 플랫폼</h3>
               </div>
               <div class="col-md-6">
                 <p>
