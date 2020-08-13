@@ -789,6 +789,10 @@ input[id="agree"]+label {
   cursor: pointer;
 }
 
+input[type="checkbox"]:checked+label {
+  background: url(../img/check2x.png) no-repeat center/16px 16px;
+}
+
 .agree-txt {
   position: absolute;
   margin-top: -35px;

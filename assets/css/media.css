@@ -1,6 +1,14 @@
 @media (min-width:1025px) {}
 
 @media (min-width:769px) and (max-width:1024px) {
+  .footer-text {
+    margin-top: 60px;
+  }
+
+  .footer-logo-area img {
+    left: 5%;
+  }
+
   .about-back {
     height: 850px;
   }
@@ -36,13 +44,87 @@
   }
 
   .main-wrap-3::after {
-    margin-top: -78%;
+    margin-top: -70%;
+  }
+
+  .main-text-box {
+    position: relative;
+    right: 30%;
+  }
+
+  .realtor-main-txt {
+    font-size: 27px;
+  }
+
+  .owner-top h2 {
+    font-size: 30px;
+  }
+
+  .main-banner2 {
+    height: 300px;
+  }
+
+  .main-banner3 {
+    height: 300px;
+  }
+
+  .main-text-box h1 {
+    font-size: 29px;
+  }
+
+  .bg-img {
+    max-height: 300px;
+  }
+
+  .main-wrap-3 .img-6 {
+    height: 719px;
+  }
+
+  .main-wrap-3 .img-7 {
+    height: 300px;
+  }
+
+  .main-wrap-3 .img-8 {
+    height: 300px;
   }
 }
 
 @media (min-width:415px) and (max-width:768px) {
+  .footer-logo-area img {
+    left: 5%;
+  }
+
+  .footer-text {
+    margin-top: 60px;
+  }
+
+  .sns-box {
+    margin: 0px 2px;
+  }
+
+  .main-text-box {
+    position: relative;
+    right: 30%;
+  }
+
+  .realtor-main-txt {
+    font-size: 19px;
+  }
+
+  .main-text-box p {
+    font-size: 15px;
+  }
+
+  .main-banner2 {
+    height: 300px;
+  }
+
+  .main-banner3 {
+    height: 300px;
+  }
+
   .bg-img {
-    max-height: 250px;
+    max-height: 300px;
   }
 
   .main-btn {
@@ -50,7 +132,7 @@
   }
 
   .main-text-box h1 {
-    font-size: 28px;
+    font-size: 21px;
   }
 
   .text-float-1 {
