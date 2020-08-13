@@ -197,92 +197,94 @@
             </h2>
           </div>
           <div class="col-md-8 qna-form">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="input-area">
-                  <p>이름<span>*</span></p>
-                  <input type="text" name="" placeholder="이름" class="about-input" required>
-                </div>
-                <div class="input-area">
-                  <p>회사명</p>
-                  <input type="text" name="" placeholder="회사명" class="about-input">
-                </div>
-                <div class="input-area">
-                  <p>연락처<span>*</span></p>
-                  <input type="text" name="" value="010-" class="about-input" required>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="input-area">
-                  <p>이메일<span>*</span></p>
-                  <input type="text" name="" placeholder="이메일" class="about-input" required>
-                </div>
-                <div class="input-area">
-                  <p>희망지역<span>*</span></p>
-                  <input type="text" name="" placeholder="희망지역" class="about-input" required>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="input-area">
-                  <p>궁금한 사항</p>
-                  <textarea name="" placeholder="궁금한 사항을 기재해주세요!" class="about-textarea"></textarea>
-                  <!-- <input type="text" name="" placeholder="궁금한 사항을 기재해주세요!" class="about-input"> -->
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <input type="checkbox" name="agree" id="agree" required="">
-                <label for="agree"></label>
-                <p class="agree-txt">
-                  (필수) salk 필수<button type="button" class="btn-privacy" data-toggle="modal" data-target="#exampleModal">
-                    개인정보 수집
-                  </button>및 활용에 동의합니다.
-                </p>
-                <br>
-
-
-
-                <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                      <div class="modal-body">
-
-                        <div class="modal-title">개인정보처리방침</div>
-
-                        <div class="privacy-line"></div>
-
-                        <p class="privacy-num1">1. 개인정보의 수집 • 이용 목적</p>
-                        <p class="privacy-info1">
-                          - 본인 확인, 상담, 문의에 대한 답변 및 정보 전달, 각종 서비스 및 혜택 안내
-                        </p>
-
-                        <p class="privacy-num1">2. 개인정보의 수집 필수 항목</p>
-                        <p class="privacy-info1">
-                          - 이름, 연락처, 희망지역, 이메일
-                        </p>
-
-                        <p class="privacy-num1">3. 개인정보의 보유• 이용 기간</p>
-                        <p class="privacy-info1">
-                          - 승인하신 때로부터 1년
-                        </p>
-                      </div>
-
-                    </div>
+            <form class="visit_form" method="post" onsubmit="return checkForm();" id="formData">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="input-area">
+                    <p>이름<span>*</span></p>
+                    <input type="text" name="name" placeholder="이름" class="about-input" required>
+                  </div>
+                  <div class="input-area">
+                    <p>회사명</p>
+                    <input type="text" name="company" placeholder="회사명" class="about-input">
+                  </div>
+                  <div class="input-area">
+                    <p>연락처<span>*</span></p>
+                    <input type="text" name="phone" value="010-" class="about-input" required>
                   </div>
                 </div>
-
-
-
+                <div class="col-md-6">
+                  <div class="input-area">
+                    <p>이메일<span>*</span></p>
+                    <input type="text" name="email" placeholder="이메일" class="about-input" required>
+                  </div>
+                  <div class="input-area">
+                    <p>희망지역<span>*</span></p>
+                    <input type="text" name="area" placeholder="희망지역" class="about-input" required>
+                  </div>
+                </div>
               </div>
-            </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="input-area">
+                    <p>궁금한 사항</p>
+                    <textarea name="question" placeholder="궁금한 사항을 기재해주세요!" class="about-textarea"></textarea>
+                    <!-- <input type="text" name="" placeholder="궁금한 사항을 기재해주세요!" class="about-input"> -->
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="checkbox" name="agree" id="agree" required>
+                  <label for="agree"></label>
+                  <p class="agree-txt">
+                    (필수) salk 필수<button type="button" class="btn-privacy" data-toggle="modal" data-target="#exampleModal">
+                      개인정보 수집
+                    </button>및 활용에 동의합니다.
+                  </p>
+                  <br>
 
-            <button type="submit" class="btn-about">문의하기</button>
+
+
+                  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+
+                          <div class="modal-title">개인정보처리방침</div>
+
+                          <div class="privacy-line"></div>
+
+                          <p class="privacy-num1">1. 개인정보의 수집 • 이용 목적</p>
+                          <p class="privacy-info1">
+                            - 본인 확인, 상담, 문의에 대한 답변 및 정보 전달, 각종 서비스 및 혜택 안내
+                          </p>
+
+                          <p class="privacy-num1">2. 개인정보의 수집 필수 항목</p>
+                          <p class="privacy-info1">
+                            - 이름, 연락처, 희망지역, 이메일
+                          </p>
+
+                          <p class="privacy-num1">3. 개인정보의 보유• 이용 기간</p>
+                          <p class="privacy-info1">
+                            - 승인하신 때로부터 1년
+                          </p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+
+              <button type="submit" class="btn-about submit-form">문의하기</button>
+            </form>
           </div>
         </div>
       </div>
@@ -368,9 +370,42 @@
       </div>
   </footer>
 
+  <script>
+    function checkForm() {
+
+      if (confirm('저장하시겠습니까?') == true) {
+
+        $('.submit-form').attr('disabled', true);
+
+        var form = $('#formData')[0];
+        var formData = new FormData(form);
+        var queryString = $('#formData').serialize();
+        console.log(queryString);
+
+        $.ajax({
+          type: 'post',
+          url: 'http://localhost:80/salk/about',
+          data: queryString,
+          dataType: 'json',
+          success: function(data) {
+            console.log(data);
+            if (data.result == 'success') {
+              location.replace('');
+            } else {
+              alert('문제가 발생했습니다.\n다시 시도해주세요.')
+            }
+          },
+          error: function(e) {
+            $('.submit-form').attr('disabled', false);
+          }
+        });
 
 
 
+      }
+      return false;
+    }
+  </script>
 
 </body>
 
