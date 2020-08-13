@@ -652,13 +652,13 @@ html.prevent-scroll, body.prevent-scroll {
 
 .about-txt h3 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
 .about-txt p {
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .about-info {
@@ -711,7 +711,7 @@ html.prevent-scroll, body.prevent-scroll {
 
 .step h3 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 35px;
 }
 
@@ -944,7 +944,7 @@ input[type="checkbox"]:checked+label {
 }
 
 .qna-txtbox p {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-size: 24px;
   font-weight: 500;
 }
@@ -973,7 +973,7 @@ input[type="checkbox"]:checked+label {
   width: 100%;
   margin-top: 25px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
 }
 
