@@ -333,8 +333,7 @@ html.prevent-scroll, body.prevent-scroll {
   content: '';
   display: block;
   position: absolute;
-  z-index: 200;
-  /* top: 165.5%; */
+  z-index: 90;
   margin-top: -42%;
   right: 33.14%;
   border-radius: 1000%;
