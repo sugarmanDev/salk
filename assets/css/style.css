@@ -968,6 +968,10 @@ input[type="checkbox"]:checked+label {
   padding-bottom: 191px;
 }
 
+.qna-bottom-p {
+  padding-top: 31px;
+}
+
 .qna-b-txt {
   width: 100%;
   margin-top: 25px;

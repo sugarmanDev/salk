@@ -212,6 +212,10 @@
     margin: 15px 0 15px 0;
   }
 
+  .qna-bottom-p {
+    padding-top: 5px;
+  }
+
   .title-bottom {
     padding-top: 20px;
   }
@@ -239,7 +243,7 @@
   }
 
   .main-text-box h1 {
-    font-size: 32px;
+    font-size: 38px;
     margin-top: 50px;
   }
 
@@ -485,7 +489,7 @@
     width: 90%;
     margin-top: 0px;
     font-size: 16px;
-    margin: 25px auto 0px;
+    margin: 20px auto 0px;
   }
 
   .qna-bottom {
