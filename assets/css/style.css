@@ -461,9 +461,10 @@ html.prevent-scroll, body.prevent-scroll {
 }
 
 .footer-line {
-  background: url(../img/footer-line.png);
+  background: url(../img/footer-line@2x.png);
   width: 100%;
   height: 96px;
+  max-height: 96px;
   background-size: cover;
 }
 
@@ -585,8 +586,13 @@ html.prevent-scroll, body.prevent-scroll {
   background-color: #000;
   border-radius: 50%;
   display: inline-block;
-  padding: 7px 12px;
+  padding: 5px 12px;
   margin: 0px 8px;
+}
+
+.sns-box img {
+  max-width: 16px;
+  max-height: 16px;
 }
 
 /* about */
