@@ -120,12 +120,8 @@ button:focus {
   color: #fff;
 }
 
-#join-mobile-menu-place {
-  position: absolute;
-}
-
 .is-sticky .mobile-menu-place {
-  top: 30px !important;
+  top: 20px !important;
   color: #0e1726;
 }
 
@@ -139,11 +135,6 @@ button:focus {
   color: #fff;
   box-shadow: none;
   border: none;
-}
-
-#join-mobile-menu-place span {
-  position: absolute;
-  top: -50px;
 }
 
 html.prevent-scroll, body.prevent-scroll {
@@ -383,15 +374,15 @@ html.prevent-scroll, body.prevent-scroll {
 }
 
 .text-float-1 {
-  position: relative;
-  top: -78px;
-  left: -68%;
+  position: absolute;
+  top: 5px;
+  left: 17%;
 }
 
 .text-float-2 {
-  position: relative;
-  top: 95px;
-  right: 15%;
+  position: absolute;
+  bottom: -9px;
+  right: 8%;
 }
 
 /* 메인배너-5 */
