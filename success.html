@@ -191,6 +191,12 @@
   </footer>
 
   <script>
+    $(document).on('click', '.sns a', function() {
+      alert('준비중입니다.');
+      return false;
+    })
+
+
     $(document).ready(function() {
       var browse = navigator.userAgent.toLowerCase();
       if ((navigator.appName == 'Netscape' && browse.indexOf('trident') != -1) || (browse.indexOf("msie") != -1)) {

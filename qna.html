@@ -304,6 +304,12 @@
   </footer>
 
   <script>
+    $(document).on('click', '.sns a', function() {
+      alert('준비중입니다.');
+      return false;
+    })
+
+
     function checkForm() {
 
       if (confirm('저장하시겠습니까?') == true) {
