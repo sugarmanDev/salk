@@ -405,7 +405,7 @@ html.prevent-scroll, body.prevent-scroll {
 .background {
   background: rgba(0, 0, 0, 0.8);
   /* padding: 96px 0; */
-  width: 1515px;
+  width: 80%;
   position: absolute;
   right: 0;
   height: 350px;
