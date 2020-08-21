@@ -454,6 +454,10 @@
 }
 
 @media (min-width:0px) and (max-width:414px) {
+  .title-box h2 {
+    font-size: 28px;
+  }
+
   .under-line {
     margin: 15px 0 15px 0;
   }
@@ -641,8 +645,20 @@
     margin-top: 40px;
   }
 
+  .main4-h2 h2 {
+    font-size: 28px;
+  }
+
+  .text-white h2 {
+    font-size: 28px;
+  }
+
+  .about-middle h2 {
+    font-size: 28px;
+  }
+
   h2 {
-    font-size: 32px !important;
+    font-size: 28px !important;
   }
 
   .sub-title1 {
